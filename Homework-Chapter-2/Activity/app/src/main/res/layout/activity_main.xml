@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="165dp"
+        android:text="@string/button" />
+
+    <Button
+        android:id="@+id/simpleuibtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/simple_ui" />
+
+    <Button
+        android:id="@+id/recyclerviewbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/simpleuibtn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/recyclerview" />
+
+    <Button
+        android:id="@+id/baidubtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recyclerviewbtn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/badiu" />
+
+    <Button
+        android:id="@+id/callbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/baidubtn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/callbtn" />
+
+</RelativeLayout>

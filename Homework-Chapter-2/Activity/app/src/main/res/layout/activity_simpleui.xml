@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/background"
+    android:background="@drawable/background">
+
+    <HorizontalScrollView
+        android:id="@+id/goal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="39dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/goal1"
+                android:layout_width="164dp"
+                android:layout_height="150dp"
+                android:background="@mipmap/pic_goal_1"/>
+            <ImageView
+                android:id="@+id/goal7"
+                android:layout_width="300dp"
+                android:layout_height="275dp"
+                android:background="@mipmap/pic_goal_7" />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="275dp"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goal"
+        android:layout_alignBottom="@+id/goal"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-402dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="378dp"
+        android:text="2020-7-13   獲得"
+        android:textColor="#C0C0C0"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/goalname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/date"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="114dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="323dp"
+        android:text="連續完成7天"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:layout_width="37dp"
+        android:layout_height="39dp"
+        android:layout_alignTop="@+id/goalname"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="92dp"
+        android:background="@mipmap/pic_share" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/goalname"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="263dp"
+        android:text="恭喜你連續7天都完成任務!"
+        android:textSize="26dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="169dp"
+        android:text="完成次數 7/7"
+        android:textColor="#C0C0C0"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="82dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="105dp"
+        android:background="@drawable/button_frame_shape"
+        android:text="繼續" />
+
+
+</RelativeLayout>

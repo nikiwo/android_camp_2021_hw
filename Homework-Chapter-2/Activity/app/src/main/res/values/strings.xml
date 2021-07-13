@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyActivity</string>
+    <string name="button">button</string>
+    <string name="simple_ui">Simple UI</string>
+    <string name="recyclerview">Recycler View</string>
+    <string name="badiu">Badiu</string>
+    <string name="callbtn">電話播號</string>
+</resources>
